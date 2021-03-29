@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('create','productController@index');
+Route::post('/store','productController@saveproduct');
+Route::get('edit','productController@edit');
+Route::post('/update','productController@update');
