@@ -14,7 +14,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    
+                    <p>This is </p>
                     {{ __('You are logged in!') }}
                 </div>
             </div>
