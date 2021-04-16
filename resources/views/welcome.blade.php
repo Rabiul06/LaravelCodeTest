@@ -39,7 +39,7 @@
                 right: 10px;
                 top: 18px;
             }
-
+            
             .content {
                 text-align: center;
             }
